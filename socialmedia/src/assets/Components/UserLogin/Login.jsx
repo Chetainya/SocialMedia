@@ -9,7 +9,7 @@ function Login() {
       <input type='text' placeholder='Enter Your UserName' className='rounded-sm p-2 h-8 border-2 ' />
       <input type='password' placeholder='Enter Your Password' className='rounded-sm p-2 h-8 border-2' />
       <input type='submit' className='border-2 rounded-md p-2 bg-gray-100 hover:bg-gray-300 cursor-pointer'></input>
-      <NavLink to=''>Singup for a new User</NavLink>
+      <NavLink to='/signup'>Singup for a new User</NavLink>
     </div>
     </>
   )
